@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body { font-family: Arial, sans-serif; padding: 40px; }
+.header { display: flex; justify-content: space-between; }
+h1 { margin: 0; }
+table { width: 100%; border-collapse: collapse; margin-top: 30px; }
+th, td { border-bottom: 1px solid #ddd; padding: 10px; }
+th { text-align: left; background: #f4f4f4; }
+.total { text-align: right; margin-top: 20px; }
+.footer { margin-top: 40px; font-size: 12px; color: #777; }
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <div>
+    <h1>INVOICE</h1>
+    <p>#{{ invoice_number }}</p>
+  </div>
+  <div>
+    <strong>{{ freelancer_name }}</strong><br>
+    {{ freelancer_email }}
+  </div>
+</div>
+
+<hr>
+
+<p>
+<strong>Bill To:</strong><br>
+{{ client_name }}<br>
+{{ client_email }}
+</p>
+
+<p>
+Issue Date: {{ issue_date }}<br>
+Due Date: {{ due_date }}
+</p>
+
+<table>
+<tr>
+<th>Description</th>
+<th>Qty</th>
+<th>Rate</th>
+<th>Total</th>
+</tr>
+
+{% for item in items %}
+<tr>
+<td>{{ item.description }}</td>
+<td>{{ item.quantity }}</td>
+<td>${{ item.rate }}</td>
+<td>${{ item.total }}</td>
+</tr>
+{% endfor %}
+</table>
+
+<div class="total">
+Subtotal: ${{ subtotal }}<br>
+Tax: ${{ tax }}<br>
+<h2>Total: ${{ total }}</h2>
+</div>
+
+<div class="footer">
+Payment Terms: {{ payment_terms }}<br>
+Bank Details: {{ bank_details }}
+</div>
+
+</body>
+</html>
