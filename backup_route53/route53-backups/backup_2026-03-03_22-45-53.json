@@ -1,0 +1,149 @@
+[
+  {
+    "Name": "teknowsolutions.com.",
+    "Type": "A",
+    "AliasTarget": {
+      "HostedZoneId": "Z2FDTNDATAQYW2",
+      "DNSName": "d3q4v7dq54o7ld.cloudfront.net.",
+      "EvaluateTargetHealth": false
+    }
+  },
+  {
+    "Name": "teknowsolutions.com.",
+    "Type": "MX",
+    "TTL": 300,
+    "ResourceRecords": [
+      {
+        "Value": "10 smtp.google.com"
+      },
+      {
+        "Value": "10 ASPMX.L.GOOGLE.COM"
+      }
+    ]
+  },
+  {
+    "Name": "teknowsolutions.com.",
+    "Type": "NS",
+    "TTL": 172800,
+    "ResourceRecords": [
+      {
+        "Value": "ns-1651.awsdns-14.co.uk."
+      },
+      {
+        "Value": "ns-892.awsdns-47.net."
+      },
+      {
+        "Value": "ns-458.awsdns-57.com."
+      },
+      {
+        "Value": "ns-1364.awsdns-42.org."
+      }
+    ]
+  },
+  {
+    "Name": "teknowsolutions.com.",
+    "Type": "SOA",
+    "TTL": 900,
+    "ResourceRecords": [
+      {
+        "Value": "ns-1651.awsdns-14.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+      }
+    ]
+  },
+  {
+    "Name": "_2a7ee1139044c6dc268608e0be5bfd47.teknowsolutions.com.",
+    "Type": "CNAME",
+    "TTL": 500,
+    "ResourceRecords": [
+      {
+        "Value": "_cd08b32f703438cfd62c6dc321b686e9.jkddzztszm.acm-validations.aws."
+      }
+    ]
+  },
+  {
+    "Name": "5cvyzhpgsi7yqrnxifvpi52kkomo6dm6._domainkey.teknowsolutions.com.",
+    "Type": "CNAME",
+    "TTL": 1800,
+    "ResourceRecords": [
+      {
+        "Value": "5cvyzhpgsi7yqrnxifvpi52kkomo6dm6.dkim.amazonses.com"
+      }
+    ]
+  },
+  {
+    "Name": "google._domainkey.teknowsolutions.com.",
+    "Type": "TXT",
+    "TTL": 300,
+    "ResourceRecords": [
+      {
+        "Value": "\"v=DKIM1; k=rsa; \""
+      },
+      {
+        "Value": "\"p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr3mwHZv2TWrkv195REpVMcF8nnKKKiezPsuN4ZZmq90cSv5Hz55PdEU1E9MvLfh4omD4uo3EpFg4SCE5I9YBftDJVuOwagjllkuxf0pBJ7lvjL6vGUxTjMMo1IyvsUNtdyoKHv6rqfh4OAiQDUm3IRXvcTw5BsKSmqRLSfZsBq9G7aVWHycwd9OqRGRiQuiKQMP \""
+      },
+      {
+        "Value": "\"svhwHdoalc+vcWIkF30vYJDw3+xdSP6lLGNlCShlkapIvOLm9pLU/5f/uW2oFUIIv7bXgls+7crWvM6wy7T45u2DM9Hzli7Kr1PzDwJV2oOZo63sSSn2qHjooCmgi5P2HTjKE4Rr+bPtMDghIBQIDAQAB\""
+      }
+    ]
+  },
+  {
+    "Name": "ygafzclyhqy6prsahf6trlnvucnbwpwi._domainkey.teknowsolutions.com.",
+    "Type": "CNAME",
+    "TTL": 1800,
+    "ResourceRecords": [
+      {
+        "Value": "ygafzclyhqy6prsahf6trlnvucnbwpwi.dkim.amazonses.com"
+      }
+    ]
+  },
+  {
+    "Name": "ymnnt45hgxduebrzmrwxavbqc4vsc5kd._domainkey.teknowsolutions.com.",
+    "Type": "CNAME",
+    "TTL": 1800,
+    "ResourceRecords": [
+      {
+        "Value": "ymnnt45hgxduebrzmrwxavbqc4vsc5kd.dkim.amazonses.com"
+      }
+    ]
+  },
+  {
+    "Name": "_spf.teknowsolutions.com.",
+    "Type": "TXT",
+    "TTL": 10,
+    "ResourceRecords": [
+      {
+        "Value": "\"v=spf1 include:spf.google.com ~all\""
+      }
+    ]
+  },
+  {
+    "Name": "notifications.teknowsolutions.com.",
+    "Type": "MX",
+    "TTL": 300,
+    "ResourceRecords": [
+      {
+        "Value": "10 feedback-smtp.us-east-2.amazonses.com"
+      }
+    ]
+  },
+  {
+    "Name": "notifications.teknowsolutions.com.",
+    "Type": "TXT",
+    "TTL": 300,
+    "ResourceRecords": [
+      {
+        "Value": "\"v=spf1 include:amazonses.com ~all\""
+      }
+    ]
+  },
+  {
+    "Name": "www.teknowsolutions.com.",
+    "Type": "CNAME",
+    "TTL": 500,
+    "ResourceRecords": [
+      {
+        "Value": "d3q4v7dq54o7ld.cloudfront.net"
+      }
+    ]
+  }
+]

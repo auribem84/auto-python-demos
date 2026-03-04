@@ -1,0 +1,20 @@
+# Entorno virtual
+venv/
+.venv_route/
+.env/
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos del sistema
+.DS_Store
+
+# Archivos generados
+#invoices/
