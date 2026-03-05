@@ -1,11 +1,64 @@
-<h2>Payment Reminder</h2>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .header {
+            color: #2c3e50;
+        }
+
+        .amount {
+            font-size: 20px;
+            font-weight: bold;
+            color: #c0392b;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+
+<h2 class="header">Payment Reminder</h2>
 
 <p>Hello {{ customer_name }},</p>
 
-<p>Your invoice is overdue.</p>
+<p>
+This is a reminder that your invoice is currently overdue.
+</p>
 
-<p><strong>Amount Due:</strong> ${{ amount }}</p>
+<p class="amount">
+Amount Due: ${{ amount }}
+</p>
 
-<p><strong>Due Date:</strong> {{ due_date }}</p>
+<p>
+Due Date: {{ due_date }}
+</p>
 
-<p>Please process your payment.</p>
+<p>
+Please arrange payment at your earliest convenience.
+</p>
+
+<p>
+Thank you,<br>
+Finance Team
+</p>
+
+<div class="footer">
+Automated notification system
+</div>
+
+</div>
+</body>
+</html>
