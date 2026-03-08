@@ -1,0 +1,15 @@
+credentials:
+  usernames:
+    admin:
+      name: Admin User
+      email: admin@email.com
+      password: "admin123"  # para producción conviene usar hash
+
+cookie:
+  name: vin_dashboard_cookie
+  key: some_random_key_123
+  expiry_days: 1
+
+preauthorized:
+  emails:
+    - admin@email.com
