@@ -23,4 +23,4 @@ def onboard_customer(customer_name, email):
     print("Onboarding complete ✅")
 
 if __name__ == "__main__":
-    onboard_customer("HHCenterCC", "auribem84@gmail.com")
+    onboard_customer("HHCenterEE", "auribem84@gmail.com")
